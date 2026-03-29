@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashra's Love Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora aurora-one"></div>
+  <div class="aurora aurora-two"></div>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <nav class="topbar">
+        <a class="brand" href="#top">Ashra's Love Archive</a>
+        <div class="nav-links">
+          <a href="#story">Our Story</a>
+          <a href="#letters">Open When</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#planner">Wishlist</a>
+        </div>
+      </nav>
+      <div class="hero-layout">
+        <section class="hero-copy reveal">
+          <p class="eyebrow">A website made only for Ashra</p>
+          <h1>For the girl who makes ordinary days feel cinematic.</h1>
+          <p class="lead">
+            This page is a digital scrapbook, soft little diary, and tiny universe made around
+            your smile. It keeps our memories, hidden notes, future date plans, and all the
+            reasons you stay on my mind.
+          </p>
+          <div class="hero-actions">
+            <a href="#letters" class="button primary">Open a secret note</a>
+            <a href="#story" class="button secondary">See our story</a>
+          </div>
+          <div class="hero-stats">
+            <article class="stat-card">
+              <span class="stat-label">Time together</span>
+              <strong id="time-together">Loading...</strong>
+              <small>Update the start date in `script.js` with your real anniversary.</small>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Daily reminder</span>
+              <strong>Ashra is art.</strong>
+              <small>Soft eyes, sweet energy, and the kind of presence that lingers.</small>
+            </article>
+          </div>
+        </section>
+        <aside class="hero-visual reveal delay-1">
+          <div class="hero-polaroid hero-polaroid-main">
+            <img src="IMG_2744.JPG" alt="Ashra smiling">
+            <span>my favorite face in the world</span>
+          </div>
+          <div class="hero-floating">
+            <div class="hero-polaroid tilt-left">
+              <img src="IMG_4648.JPG" alt="Ashra portrait">
+              <span>soft chaos</span>
+            </div>
+            <div class="love-badge">
+              <p>Curated with love</p>
+              <strong>For Ashra</strong>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </header>
+    <main>
+      <section class="section intro-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">A little more creative</p>
+          <h2>Part scrapbook, part treasure hunt, part future date planner.</h2>
+        </div>
+        <p class="section-copy">
+          I turned this into an interactive love page instead of just a simple gallery. Ashra gets
+          hidden letters, a timeline of memories, surprise ideas for long-distance dates, wishlist
+          shortcuts, a Pinterest-inspired mood corner, and a memory wall built from your new
+          photo and video collection only.
+        </p>
+      </section>
+      <section class="section story-section" id="story">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2>A scrollable timeline of the moments that became us.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-media"><img src="IMG_2732.JPG" alt="Ashra memory one"></div>
+            <div class="timeline-copy">
+              <span class="timeline-tag">Chapter 01</span>
+              <h3>The first spark</h3>
+              <p>The beginning felt simple, but later it became the memory everything else grew around.</p>
+            </div>
+          </article>
+          <article class="timeline-card reverse reveal delay-1">
+            <div class="timeline-media"><img src="IMG_2745.JPG" alt="Ashra memory two"></div>
+            <div class="timeline-copy">
+              <span class="timeline-tag">Chapter 02</span>
+              <h3>Conversations that stayed with me</h3>
+              <p>Somewhere between long looks, soft laughter, and stolen glances, your name started feeling like home.</p>
+            </div>
+          </article>
+          <article class="timeline-card reveal delay-2">
+            <div class="timeline-media"><img src="IMG_2746.JPG" alt="Ashra memory three"></div>
+            <div class="timeline-copy">
+              <span class="timeline-tag">Chapter 03</span>
+              <h3>The little things became the big things</h3>
+              <p>The real magic lives in quiet moments, candid smiles, and how even ordinary time feels special with you.</p>
+            </div>
+          </article>
+          <article class="timeline-card reverse reveal">
+            <div class="timeline-media"><img src="IMG_2747.JPG" alt="Ashra memory four"></div>
+            <div class="timeline-copy">
+              <span class="timeline-tag">Chapter 04</span>
+              <h3>The future still looks prettier with you in it</h3>
+              <p>More pictures, more dates, more memories, and more reasons to keep choosing you.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section letters-section" id="letters">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Digital Open When Letters</p>
+          <h2>Tap a little secret when Ashra needs a reminder.</h2>
+        </div>
+        <div class="letters-grid">
+          <button class="letter-card reveal" data-letter="miss-you"><span class="letter-icon">01</span><strong>Open when you miss me</strong><small>A soft note for distance-heavy days.</small></button>
+          <button class="letter-card reveal delay-1" data-letter="need-smile"><span class="letter-icon">02</span><strong>Open when you need a smile</strong><small>A tiny reminder that your laugh is everything.</small></button>
+          <button class="letter-card reveal delay-2" data-letter="doubt"><span class="letter-icon">03</span><strong>Open when you doubt yourself</strong><small>For the days your heart needs reassurance.</small></button>
+          <button class="letter-card reveal" data-letter="future"><span class="letter-icon">04</span><strong>Open when you think about us</strong><small>For the future, the plans, and the soft hope.</small></button>
+        </div>
+      </section>
+      <section class="section generator-section">
+        <div class="generator-panel reveal">
+          <div class="generator-copy">
+            <p class="eyebrow">Virtual Date Ideas</p>
+            <h2>Press the button and let the universe plan your next date.</h2>
+            <p>Made especially for long-distance moments, low-energy evenings, or those nights when you both want something cute but cannot decide.</p>
+            <button class="button primary" id="idea-button">Give us a date idea</button>
+          </div>
+          <div class="idea-card">
+            <span class="idea-label">Tonight's idea</span>
+            <p id="date-idea">Watch the stars, pick a snack, and start with a random surprise.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section planner-section" id="planner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Shared Wishlist &amp; Gift Planner</p>
+          <h2>Sweet planning for the things Ashra might secretly want next.</h2>
+        </div>
+        <div class="planner-grid">
+          <article class="planner-card reveal">
+            <h3>Gift shortcuts</h3>
+            <p>Drop Ashra's real links here later. I kept the section but left it lightweight so the media stays the main focus.</p>
+            <div class="planner-actions">
+              <a class="button secondary" href="https://www.amazon.com/" target="_blank" rel="noreferrer">Amazon Wishlist</a>
+              <a class="button secondary" href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest Board</a>
+            </div>
+          </article>
+          <article class="planner-card reveal delay-1">
+            <h3>Gift mood notes</h3>
+            <ul class="wishlist-list">
+              <li>Something soft, thoughtful, and personal</li>
+              <li>Flowers with a handwritten note</li>
+              <li>A tiny surprise for a hard week</li>
+              <li>Anything that reminds her she is adored</li>
+            </ul>
+          </article>
+          <article class="planner-card reveal delay-2">
+            <h3>Pinterest corner</h3>
+            <p>Use this section like her moodboard zone, then swap in her real board whenever you want.</p>
+            <a class="pinterest-card" href="https://www.pinterest.com/" target="_blank" rel="noreferrer">
+              <span>Decor, outfits, dreamy rooms, soft colors, future gifts</span>
+              <strong>Open Ashra's inspiration board</strong>
+            </a>
+          </article>
+        </div>
+      </section>
+      <section class="section notes-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Hidden Things</p>
+          <h2>Little discoveries tucked into the page for Ashra.</h2>
+        </div>
+        <div class="secret-row">
+          <button class="secret-pill reveal" data-letter="morning">Morning note</button>
+          <button class="secret-pill reveal delay-1" data-letter="proud">Proud of you note</button>
+          <button class="secret-pill reveal delay-2" data-letter="kiss">Stolen kiss note</button>
+        </div>
+      </section>
+      <section class="section gallery-section" id="gallery">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Digital Scrapbook</p>
+          <h2>A memory wall built with your new photos only.</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item large reveal"><img src="IMG_2748.JPG" alt="Ashra gallery photo one"></figure>
+          <figure class="gallery-item reveal delay-1"><img src="IMG_2749.JPG" alt="Ashra gallery photo two"></figure>
+          <figure class="gallery-item reveal delay-2"><img src="IMG_2750.JPG" alt="Ashra gallery photo three"></figure>
+          <figure class="gallery-item tall reveal"><img src="IMG_2751.JPG" alt="Ashra gallery photo four"></figure>
+          <figure class="gallery-item wide reveal delay-1"><img src="IMG_4647.JPG" alt="Ashra gallery photo five"></figure>
+          <figure class="gallery-item reveal delay-2"><img src="IMG_4649.JPG" alt="Ashra gallery photo six"></figure>
+          <figure class="gallery-item reveal"><img src="IMG_4650.JPG" alt="Ashra gallery photo seven"></figure>
+          <figure class="gallery-item reveal delay-1"><img src="IMG_4659.JPG" alt="Ashra gallery photo eight"></figure>
+          <figure class="gallery-item wide reveal delay-2"><img src="IMG_4665.JPG" alt="Ashra gallery photo nine"></figure>
+          <figure class="gallery-item reveal"><img src="IMG_4673.JPG" alt="Ashra gallery photo ten"></figure>
+          <figure class="gallery-item note-tile reveal"><blockquote>"Some people are a full moodboard all by themselves."</blockquote></figure>
+        </div>
+      </section>
+      <section class="section videos-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Moving memories</p>
+          <h2>The moments that deserve replay.</h2>
+        </div>
+        <div class="video-grid">
+          <article class="video-card reveal"><video autoplay muted loop playsinline><source src="c8215ca0-7bfa-40ac-9524-c7bcfa749e7c.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-1"><video autoplay muted loop playsinline><source src="9373fa58-1a89-42d6-afed-65be064c8168.MP4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-2"><video autoplay muted loop playsinline><source src="42453c69-86be-48dd-9073-8d0c6e25590c.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal"><video autoplay muted loop playsinline><source src="44843E36-BF56-4604-9B0B-F43B2E3803AE.MP4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-1"><video autoplay muted loop playsinline><source src="49283ae4-ada5-4ae5-aa64-aac0d826626d.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-2"><video autoplay muted loop playsinline><source src="80666c6b-9331-4b8f-9b1d-bd6bafe215c4.MP4" type="video/mp4"></video></article>
+          <article class="video-card reveal"><video autoplay muted loop playsinline><source src="174117d7-6ebe-47f9-9acf-ac26426bc4a0.MP4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-1"><video autoplay muted loop playsinline><source src="179994c7-da35-4efd-996e-878765dc431f.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-2"><video autoplay muted loop playsinline><source src="739434fd-c8d2-4198-92b4-9dfd68840e1f.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal"><video autoplay muted loop playsinline><source src="IMG_2699.mp4" type="video/mp4"></video></article>
+          <article class="video-card reveal delay-1"><video autoplay muted loop playsinline><source src="IMG_2742.mp4" type="video/mp4"></video></article>
+        </div>
+      </section>
+      <section class="section closing-section reveal">
+        <div class="closing-panel">
+          <p class="eyebrow">For Ashra</p>
+          <h2>You are still the prettiest part of every plan.</h2>
+          <p>This page can keep growing with new letters, new dates, new photos, and new memories. Like us, it gets more beautiful the more love gets added to it.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="modal" id="letter-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="letter-title">
+      <button class="modal-close" id="modal-close" aria-label="Close letter">X</button>
+      <p class="eyebrow">A note for Ashra</p>
+      <h3 id="letter-title">Open when...</h3>
+      <p id="letter-body"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
